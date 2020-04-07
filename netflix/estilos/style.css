@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/background_netflix.jpg');
+    background-size: cover;
+}
+
+.container-content {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .header-content img {
+    width: 180px;
+}
+
+.header-content button {
+    width: 80px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #E50914;
+    border: 1px solid #E50914;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.header-content button {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.content-main .section-title h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.content-main .section-description-1 p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content-main .section-description-2 p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.content-main .section-sign {
+    display: flex;
+    align-items: center;
+}
+
+.content-main .section-sign input {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.content-main .section-sign button {
+    width: 290px;
+    height: 60px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #E50914;
+    border: 1px solid #E50914;
+}
+
+.content-main .section-sign button:hover {
+    cursor: pointer;
+    background-color: #f50a16;
+}
