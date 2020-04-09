@@ -17,17 +17,18 @@
 
             <main>
                 <div class="login-form">
-                    <form>
+                    <section class="form">
                         <h1>Entrar</h1>
 
                         <input type="text" id="user" placeholder="Email ou número de telefone">
                         <div class="user-validation" id="user-validation">
-                            <p>Informe um email ou número de telefone válido.</p>
+                            <p id="p-validation">Informe um email ou número de telefone válido.</p>
                         </div>
 
+                       
                         <input type="password" id="password" placeholder="Senha">
                         <div class="password-validation" id="password-validation">
-                            <p>A senha deve ter entre 4 a 60 caracteres.</p>
+                            <p id="p-validation2">A senha deve ter entre 4 a 60 caracteres.</p>
                         </div>
 
                         <button onclick="validacaoLogin()">Entrar</button>
@@ -52,7 +53,7 @@
                             Esta página é protegida pelo Google reCAPTCHA<br>
                             para garantir que você não é um robo. <a href="#">Saiba mais.</a>
                         </p>
-                    </form>
+                    </section>
                 </div>
             </main>
 
@@ -77,6 +78,6 @@
         </div>
     </div>
 
-    <script src="scripts/script.js"></script>
+    <script src="scripts/login.js"></script>
 </body>
 </html>
