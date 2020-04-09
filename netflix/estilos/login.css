@@ -78,12 +78,25 @@ form input {
     outline: none;
 }
 
+.login-form .user-validation p,
+.login-form .password-validation p {
+    color: #ff6600;
+    font-size: 15px;
+}
+
+.user-validation p,
+.password-validation p {
+    display: none;
+}
+
+
 form button {
     margin-top: 25px;
     margin-bottom: 10px;
     font-weight: bold;
     color: #ffffff;
     background-color: #E50914;
+    outline: none;
 }
 
 form button:hover {

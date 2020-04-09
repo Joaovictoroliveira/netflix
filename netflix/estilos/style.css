@@ -14,7 +14,7 @@
 .container-content {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.75);
 }
 
 header {
@@ -74,6 +74,14 @@ main {
     margin-bottom: 20px;
 }
 
+.email-validation {
+    display: none;
+    margin-top: 2px;
+    color: #ff6600;
+    font-size: 19px;
+    text-align: left;
+}
+
 .content-main .section-description-2 p {
     font-size: 22px;
     margin-top: 10px;
@@ -90,6 +98,7 @@ main {
     padding: 10px;
     font-size: 20px;
     border: none;
+    outline: none;
 }
 
 .content-main .section-sign button {
@@ -100,6 +109,7 @@ main {
     color: #ffffff;
     background-color: #E50914;
     border: 1px solid #E50914;
+    outline: none;
 }
 
 .content-main .section-sign button:hover {
