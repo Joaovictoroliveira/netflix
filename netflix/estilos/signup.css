@@ -98,4 +98,83 @@ header {
     background-color: #f50a16;
 }
 
+.footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #f2f2f2;
+}
 
+.informations {
+    display: flex;
+    margin-left: 70px;
+}
+
+.information-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+
+.information-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+
+.information-4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+
+.information-1 a,
+.information-2 a,
+.information-3 a,
+.information-4 a {
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: #737373;
+    font-size: 18px;
+}
+
+.information-1 a:hover,
+.information-2 a:hover,
+.information-3 a:hover,
+.information-4 a:hover {
+    text-decoration: underline;
+}
+
+.information-1 a:nth-child(2),
+.information-1 a:nth-child(3) {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.information-2 a:nth-child(1),
+.information-2 a:nth-child(2) {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.information-3 a:nth-child(1) {
+    font-size: 14px;
+}
+
+.information-4 a:nth-child(1) {
+    font-size: 14px;
+}
+
+.information-1 select {
+    width: 150px;
+    padding: 5px;
+    font-size: 18px;
+    color: #737373;
+}
