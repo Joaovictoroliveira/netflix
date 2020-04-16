@@ -67,7 +67,7 @@ header {
     height: 50px;
     padding: 5px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .form .forgot-password {
@@ -75,6 +75,12 @@ header {
     text-decoration: none;
     font-size: 20px;
     color: #0055ff;
+}
+
+#passwordObrigatory {
+    display: none;
+    margin-bottom: 20px;
+    color: #f50a16;
 }
 
 .form .forgot-password:hover {
