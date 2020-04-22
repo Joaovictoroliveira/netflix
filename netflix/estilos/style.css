@@ -158,6 +158,15 @@ main {
     width: 500px;
 }
 
+#watch-tv-2 {
+    border-top: none;
+    padding-top: 40px;
+}
+
+#watch-tv-2 .tv-text p{
+    font-size: 32px;
+}
+
 .download-area {
     display: flex;
     justify-content: center;
